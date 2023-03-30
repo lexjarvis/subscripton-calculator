@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="subscription-calculator.css">
+    <title>Subscription Calculator</title>
+</head>
+<body>
+
+      <div class="calc-container">
+        <h1 class="title">PRICING</h1>
+        <p> One small fee to avoid thousands of dollars in fines. We like the sound of that, too. With monthly or
+            annual payment options signing up for Abyde is simply a no-brainer. </p>
+      <div class="toggle-switch">
+          <span>Monthly</span>
+          <label class="switch">
+            <input type="checkbox" class="toggler">
+            <span class="slider"></span>
+          </label>
+          <span>Annually</span>
+      </div>
+
+      <div class="cards">
+          <div class="card" id="hipaa">
+            <h1 class="card-title">HIPAA</h1>
+            <h2 class="card-price" id="hipaa-price"> $132 <span> / month</span> </h2>
+            <button type="button" class="card-btn"> SIGN UP</button>
+          </div>
+
+          <div class="card" id="bundle">
+            <h1 class="card-title">BUNDLE</h1>
+            <h2 class="card-price" id="bundle-price"> $237.60 <span> / month</span> </h2>
+            <button type="button" class="card-btn"> SIGN UP</button>
+          </div>
+
+          <div class="card" id="osha">
+            <h1 class="card-title">OSHA</h1>
+            <h2 class="card-price" id="osha-price"> $132 <span> / month</span> </h2>
+            <button type="button" class="card-btn"> SIGN UP </button>
+          </div>
+        </div>
+      </div>
+    <script src="subscription-calculator.js"></script>
+</body>
+</html>
+
+
